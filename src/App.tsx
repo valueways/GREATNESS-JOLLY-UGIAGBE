@@ -36,7 +36,7 @@ const CLIENT_INFO = {
   tagline: "Transforming Lives, Restoring Families, Raising Global Leaders",
   bio: "He is a keynote speaker, visionary leader, seasoned minister, author, and relationship coach with a passionate commitment to restoring families, equipping global leaders, and transforming nations.",
   ministry: "GOD'S DELIVERANCE MINISTRY INTERNATIONAL OUTREACH",
-  whatsapp: "+33769254980",
+  whatsapp: "+1234567890",
   email: "valueways@gmail.com",
   heroImage: "https://iili.io/qQN8orb.png",
   bgPattern: "https://iili.io/qQwsDdX.png"
