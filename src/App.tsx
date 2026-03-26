@@ -269,7 +269,7 @@ export default function App() {
 
         <div className="max-w-screen-2xl mx-auto px-8 w-full grid lg:grid-cols-12 items-center gap-12 relative z-10 pt-24">
           {/* Left Content */}
-          <div className="lg:col-span-7 text-left">
+          <div className="lg:col-span-8 text-left">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
@@ -313,12 +313,12 @@ export default function App() {
           </div>
 
           {/* Right Image */}
-          <div className="lg:col-span-5 relative mt-12 lg:mt-0">
+          <div className="lg:col-span-4 relative mt-12 lg:mt-0">
             <motion.div
               initial={{ opacity: 0, scale: 0.9, rotate: 2 }}
               animate={{ opacity: 1, scale: 1, rotate: 0 }}
               transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
-              className="relative aspect-[4/5] lg:aspect-auto lg:h-[80vh] rounded-[3rem] overflow-hidden apple-shadow group"
+              className="relative aspect-[4/5] lg:aspect-auto lg:h-[70vh] rounded-[3rem] overflow-hidden apple-shadow group"
             >
               <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent z-10 opacity-60" />
               <div className="absolute inset-0 bg-gradient-to-r from-secondary/40 via-transparent to-transparent z-10" />
@@ -358,7 +358,7 @@ export default function App() {
       <section id="about" className="section-padding bg-white">
         <div className="max-w-screen-xl mx-auto px-8">
           <div className="grid lg:grid-cols-12 gap-24 items-center">
-            <div className="lg:col-span-5 relative">
+            <div className="lg:col-span-4 relative">
               <motion.div 
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -379,7 +379,7 @@ export default function App() {
               initial="initial"
               whileInView="whileInView"
               viewport={{ once: true }}
-              className="lg:col-span-7"
+              className="lg:col-span-8"
             >
               <SectionHeader title="A Visionary Leader for a Global Generation" subtitle="The Calling" centered={false} />
               <motion.div variants={FADE_UP} className="space-y-8 text-secondary/60 text-lg md:text-xl leading-relaxed font-light">
